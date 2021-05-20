@@ -24,7 +24,7 @@ export const SearchCard = styled.div`
       width: 100%;
     }
   }
-  
+
   h1 {
     margin: 10px 0;
     font-size: 21px;
