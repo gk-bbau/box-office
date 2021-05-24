@@ -16,7 +16,7 @@ const Seasons = ({ seasons }) => {
       <SeasonList>
         {seasons.map(season => (
           <div key={season.id} className="season-item">
-            <div className="left"> 
+            <div className="left">
               <p>Season {season.number}</p>
               <p>
                 Episodes: <span>{season.episodeOrder}</span>

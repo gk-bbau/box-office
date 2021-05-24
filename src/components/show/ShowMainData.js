@@ -16,7 +16,10 @@ const ShowMainData = ({ name, rating, summary, tags, image }) => {
             <span>{rating.average || 'N/A'}</span>
           </div>
         </Headline>
-        <div className="summary" dangerouslySetInnerHTML={{ __html: summary }} />
+        <div
+          className="summary"
+          dangerouslySetInnerHTML={{ __html: summary }}
+        />
 
         <div>
           Tags:{' '}
